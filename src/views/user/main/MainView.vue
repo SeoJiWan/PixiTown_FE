@@ -11,6 +11,8 @@ import { useRouter } from 'vue-router';
 const activeTab = ref('recent');
 const router = useRouter();
 
+console.log(router);
+
 const spaces = ref([
   {
     id: 1,
